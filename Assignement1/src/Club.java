@@ -127,9 +127,9 @@ public class Club {
 		System.out.println("|                   	    SIMULATION                         |");
 		System.out.println("----------------------------------------------------------------\n");
 		
-		System.out.println("Authors: Vincenzo Fraello (299647) - Lorenzo Di Palma (299636)\n");
+		System.out.println("Authors: Vincenzo Fraello (299647)\n");
 		
-		System.out.println("\n1) Crea un amministratore, alcuni soci e alcune attivit‡\n");
+		System.out.println("\n1) Crea un amministratore, alcuni soci e alcune attivit√†\n");
 
 			// TEST 1
 		
@@ -161,7 +161,7 @@ public class Club {
 		a.insertActivitiesClub(club.clubCompetitionList, cc, "Competition");
 		a.insertActivitiesClub(club.clubCompetitionList, cc1, "Competition");		
 		
-		System.out.println("\n2) Líamministratore aggiunge, rimuove e modifica dei soci\n");		
+		System.out.println("\n2) L‚Äôamministratore aggiunge, rimuove e modifica dei soci\n");		
 
 			// TEST 2
 
@@ -189,7 +189,7 @@ public class Club {
 			 * SIMULAZIONI DI TEST AGGIUNTIVA:
 			 * 
 			 * 	viene testato che quando un membro viene rimosso dal club 
-			 * 	automaticamente non deve pi˘ essere iscritto in nessuna attivit‡.
+			 * 	automaticamente non deve pi√π essere iscritto in nessuna attivit√†.
 			 *
 			*/
 		
@@ -295,7 +295,7 @@ public class Club {
 				+ member_selected.getSurname() + ", email: " + member_selected.getEmail() + "]");
 
 		System.out.println(
-				"\n4) Il socio si iscrive a una gara e a un corso e poi cancella líiscrizione di una delle due attivit‡\n");
+				"\n4) Il socio si iscrive a una gara e a un corso e poi cancella l‚Äôiscrizione di una delle due attivit√†\n");
 
 			// TEST 4
 
@@ -313,7 +313,7 @@ public class Club {
 			}
 		}
 
-		System.out.println("\n5) Infine il sistema presenta le informazioni possedute da soci, amministratori e attivit‡\n");
+		System.out.println("\n5) Infine il sistema presenta le informazioni possedute da soci, amministratori e attivit√†\n");
 
 			// TEST 5		
 		
