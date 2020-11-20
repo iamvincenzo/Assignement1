@@ -127,7 +127,7 @@ public class Club {
 		System.out.println("|                   	    SIMULATION                         |");
 		System.out.println("----------------------------------------------------------------\n");
 		
-		System.out.println("Authors: Vincenzo Fraello (299647)\n");
+		System.out.println("Author: Vincenzo Fraello (299647)\n");
 		
 		System.out.println("\n1) Crea un amministratore, alcuni soci e alcune attività\n");
 
